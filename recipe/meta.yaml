@@ -14,7 +14,7 @@ build:
     - cnv-vcf2json = vcf_converter.cnv_vcf2json:cnv_vcf2json
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
